@@ -1,0 +1,23 @@
+{
+  "project_name": "Название презентации",
+  "out_dir": "out",
+  "model": "chatgpt-image-2-5",
+  "resolution": "1K",
+  "aspect_ratio": "16:9",
+  "render_text": true,
+  "references": [
+    "refs/sample.jpg"
+  ],
+  "references_note": "Use the attached image(s) ONLY as a style reference: palette, lighting, typography mood, level of realism, composition rhythm. Do NOT copy their content, objects or text.",
+  "style": "Consistent visual system for the whole deck: <опиши стиль из брифа — фотореализм / плоская иллюстрация / 3D; палитра; свет; настроение; типографика>. Every slide of this deck must look like it belongs to the same series.",
+  "slides": [
+    {
+      "num": 1,
+      "title": "Заголовок слайда",
+      "text": "Два-три предложения, которые будут напечатаны на слайде.",
+      "image_prompt": "Сцена, которая без текста читается человеком и повторяет смысл заголовка: кто/что в кадре, действие, обстановка, композиция, где остаётся чистое место под текст.",
+      "copy": "Продающий текст копирайтера к этому слайду (60–120 слов): крючок в первой фразе, одна мысль, конкретика, мостик к следующему слайду. Уходит в заметки PPTX и в документ «презентация текстом».",
+      "notes": "Необязательно: подсказка докладчику — уйдёт в заметки PPTX."
+    }
+  ]
+}

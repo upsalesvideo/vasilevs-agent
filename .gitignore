@@ -1,0 +1,8 @@
+# Проекты покупателей и секреты не публикуем
+projects/*
+!projects/.gitkeep
+__pycache__/
+*.pyc
+*.pptx
+.DS_Store
+Thumbs.db
